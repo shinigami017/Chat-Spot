@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatSpot</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="usernameContainer">
+            <h2>ChatSpot</h2>
+            <p>Create Username : </p>
+            <div id="error"></div>
+            <form id="usernameForm">
+                <input type="text" size="35" id="username" placeholder="Enter username">
+                <input type="submit" value="Proceed">
+            </form>
+        </div>
+        <div id="mainContainer">
+            <h2>ChatSpot</h2>
+            <div id="chatContainer">
+                <div id="chatWindow"></div>
+                <form id="messageForm">
+                    <input type="text" size="50" id="message" placeholder="Type something...">
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+            <div id="userContainer">
+                <div id="users"></div>
+            </div>
+        </div>
+    </div>
+    <script src="/scripts/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/scripts/script.js"></script>
+
+</body>
+
+</html>

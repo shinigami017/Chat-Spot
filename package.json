@@ -1,0 +1,15 @@
+{
+  "name": "chatspot",
+  "version": "1.0.0",
+  "description": "This is the first time I am using Socket.io in my project. The project is simple Real-time Chat Application where multiple users can join and chat with their assigned sockets. This is a basic version where no profiles or login are required, simply users with different usernames can chat on a single server.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Satyam Bhatia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
